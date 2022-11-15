@@ -245,6 +245,7 @@ a {
   text-align: left;
   font-size: 32px;
   font-weight: 500;
+  margin-left: 10px;
 }
 
 .my-work {
@@ -268,7 +269,7 @@ a {
 }
 
 .holdtext {
-  width: 320px;
+  width: 340px;
   color: #dcdce8;
   font-size: 25px;
 }
@@ -298,9 +299,20 @@ a {
   height: 24px;
   background-color: #7d73fc;
   margin-top: 20px;
+  margin-left: 0.00001px;
   line-height: 24px;
   text-align: center;
   padding: 12px;
+}
+
+.seep {
+  align-self: flex-start;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.seep a {
+  margin-left: 10px;
 }
 
 .seeproject:active {
@@ -431,6 +443,10 @@ a {
 
 .myform .mmb:enabled {
   background-color: #7d73fc;
+}
+
+.click-me {
+  display: none; 
 }
 
 @media only screen and (min-width: 768px) {
@@ -778,7 +794,6 @@ a {
     margin-top: 60px;
     line-height: 24px;
     text-align: center;
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
   }
 
   .seep {
@@ -928,6 +943,7 @@ a {
   }
 
   .click-me {
+    display: inline;
     width: 50%;
     animation: 3s infinite alternate slidein;
   }
@@ -942,11 +958,5 @@ a {
       margin-left: 0%;
       width: 100%;
     }
-  }
-
-  .seeproject:hover {
-    width: 170px;
-    height: 65px;
-    background-color: palevioletred;
   }
 }

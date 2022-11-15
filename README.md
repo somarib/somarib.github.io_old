@@ -52,7 +52,7 @@ https://somarib.github.io/
 
 👤 **Somarib Emmanuel**
 
-GitHub: [@somarib](https://github.com/somarib/Portfolio)
+GitHub: [@somarib](https://github.com/somarib/Soma-wk2-portfolio)
 Twitter: @somarib13
 LinkIn: www.linkedin.com/in/emmanuel-somarib-21a49617
 
